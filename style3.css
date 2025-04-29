@@ -1,0 +1,135 @@
+.fourt-para {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 431px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.fourt-para > .f-para-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.fourt-para > .f-para-two {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 25px;
+}
+.fourt-para >.f-para-three {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.fourt-para >.f-para-three >.f-para-three-inner {
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 45.6px;
+    width: 184px;
+    background-color: #0355CC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.fourt-para > .f-para-two >.one {
+    height: 100%;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.fourt-para > .f-para-two >.two {
+    height: 100%;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.fourt-para > .f-para-two >.three{
+    height: 100%;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.fourt-para > .f-para-two > .one > .icon {
+    height: 60px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px ;
+    padding-top: 10px;
+}
+.fourt-para > .f-para-two > .two > .icon {
+    padding-top: 10px;
+    height: 60px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px ;
+}
+.fourt-para > .f-para-two > .three > .icon {
+    padding-top: 10px;
+    height: 60px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px ;
+}
+.fourt-para > .f-para-two > .one > .header {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.fourt-para > .f-para-two > .two > .header {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.fourt-para > .f-para-two > .three > .header {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.fourt-para > .f-para-two > .three > .para {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* color:rgb(40, 38, 38); */
+}
+.fourt-para > .f-para-two > .two > .para {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* color:rgb(40, 38, 38); */
+}
+.fourt-para > .f-para-two > .one > .para {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* color:rgb(40, 38, 38); */
+}
+
+.fourt-para > .f-para-two > div:hover {
+    background-color: orangered;
+    color: white;
+}
+
+ 
+.fourt-para > .f-para-two > div:hover * {
+    color: inherit;
+}

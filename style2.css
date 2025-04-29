@@ -1,0 +1,48 @@
+.third-para {
+    height: 842px;
+    background-color: #c1dff6;
+}
+.third-para-content {
+    padding-top: 120px;
+    height: 602px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.third-para-img {
+    display: grid;
+    justify-content: center;
+}
+.third-para-container {
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+.t-para-container {
+    width: 480px;
+    height: 280px;
+}
+.t-para-container > .t-p-about {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #0355CC;
+    margin-bottom: 28px;
+}
+.t-para-container > .t-p-button {
+    font-size: 16px;
+    font-weight: 545;
+    font-family: sans-serif;
+    color: #0355CC;
+    margin-top: 45px;
+    height: 45.6px;
+    width: 184px;
+    background-color:  orangered;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.t-para-container > .t-p-descrip {
+    color:rgb(40, 38, 38);
+}

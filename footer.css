@@ -1,0 +1,169 @@
+.footer {
+    margin-top: 125px;
+    height: 450px;
+    background-color: #0a0f43;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 1fr;
+    margin-bottom: 100px;
+}
+.footer-heading1 { 
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-sub-heading1 {
+    margin-top: 15px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    background-color: #0355CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.footer-sub-heading2 {
+    margin-top: 15px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    background-color: #0355CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.footer-sub-heading3 {
+    margin-top: 15px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    background-color: #0355CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.footer-sub-heading1:hover {
+   background-color: orangered;
+}
+.footer-sub-heading2:hover {
+    background-color: orangered;
+}
+.footer-sub-heading3:hover {
+    background-color: orangered;
+}
+.footer-heading2 {
+    display: flex;
+    justify-content: center;
+}
+.footer-heading2 > .line1 , .line2{
+    height: 1px;
+    width: 250px;
+    background-color: white;
+    align-self: center;
+}
+.footer-heading3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-left: 260px;
+    margin-right: 250px;
+    font-family: sans-serif;
+}
+.footer-heading4 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-heading5 {
+    display: flex;
+    justify-content: center;
+}
+.footer-heading55 {
+    height: 40px;
+    width: 143px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 75px;
+}
+.footer-heading55 i:hover {
+    color: orangered;
+}
+.footer-heading6 {
+    display: flex;
+    justify-content: center;
+}
+.footer-heading6 > .line3{
+   
+    height: 2px;
+    width: 1320px;
+    background-color: white;
+}
+
+.copy-right{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.form {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 5fr;
+}
+.form-header {
+    grid-column: 1/ -1;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.left-form > .name-input {
+    width: 100%;
+}
+.left-form input {
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    border: none;
+    height: 45px;
+    width: 70%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.left-form textarea {
+    font-weight: bold;
+    margin-left: 100px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 80px;
+    width: 70%;
+}
+.left-form > .send-button {
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 45px;
+    width: 110px;
+    color: white;
+    background-color:#0355CC;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+.swiper-wrapper > .slide1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.swiper-wrapper > .slide2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.swiper-wrapper > .slide3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
